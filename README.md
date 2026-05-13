@@ -14,6 +14,24 @@ The single-pendulum balancing controller is a state machine with three modes:
 
 The controller transitions automatically between modes based on the pendulum's current energy and angle.
 
+## Requirements
+
+- Python 3.x
+- [SciPy](https://scipy.org/)
+- [PyQt5](https://pypi.org/project/PyQt5/)
+
+Install dependencies with:
+
+```bash
+pip install scipy PyQt5
+```
+
+## Usage
+
+```bash
+python pendulum.py
+```
+
 ## References
 
 K. J. Åström and K. Furuta, "Swinging up a pendulum by energy control," *Automatica*, 2000.
